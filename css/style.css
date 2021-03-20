@@ -23,11 +23,18 @@ a { /* Blame all browsers that need this */
     text-decoration: none;
     color: currentColor;
 }
+header{
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
 
 .top-bar {
     width: 100vw;
     height: 5vh;
-    background-color: black;
+    /* background-color: black; */
+    background-color: rgba(255, 255, 255, .10);
+	backdrop-filter: blur(15px); 
 }
 
 .top-bar-button {
@@ -140,4 +147,5 @@ a { /* Blame all browsers that need this */
     text-align: center;
     font-size: 2vmin;
     background-color: black;
+    padding-bottom: 1000px; /*JUST FOR TESTING*/
 }

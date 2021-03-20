@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <header>
+        <header class="sticky">
             <nav class="top-bar">
                 <img class="top-bar-favicon" src="./favicon.png" />
                 <button class="top-bar-button title"><a href="./index.html">Podrum</a></button>
