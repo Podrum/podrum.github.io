@@ -23,6 +23,7 @@ a { /* Blame all browsers that need this */
     text-decoration: none;
     color: currentColor;
 }
+
 header{
     position: -webkit-sticky; /* Blame safari */
     position: sticky;
@@ -35,9 +36,9 @@ header{
     background-color: rgba(255, 255, 255, .10);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px); /* Blame safari */
-    -moz-backdrop-filter: blur(15px); /* Blame mozilla */
-    -ms-backdrop-filter: blur(15px); /* Blame microsoft */
-} /* Blame yourself for not using a CSS preprocessor */
+    -moz-backdrop-filter: blur(15px); /* Blame firefox */
+    -ms-backdrop-filter: blur(15px); /* Blame ie */
+}
 
 .top-bar-button {
     min-width: 8vw;
