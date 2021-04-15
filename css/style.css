@@ -37,7 +37,7 @@ header{
     -webkit-backdrop-filter: blur(15px); /* Blame safari */
     -moz-backdrop-filter: blur(15px); /* Blame mozilla */
     -ms-backdrop-filter: blur(15px); /* Blame microsoft */
-}
+} /* Blame yourself for not using a CSS preprocessor */
 
 .top-bar-button {
     min-width: 8vw;
