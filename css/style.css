@@ -149,3 +149,16 @@ header{
     align-content: center;
     flex-direction: column;
 }
+
+.monospace {
+    font-family: monospace;
+    background: #595959;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.inline-link {
+    /* dk why but if you don't use this, the link won't be visible enough */
+    color: rgb(201, 201, 201);
+    text-decoration: underline;
+}
