@@ -152,4 +152,7 @@ header{
 
 .monospace {
     font-family: monospace;
+    background: #595959;
+    border-radius: 10px;
+    padding: 5px;
 }
