@@ -149,3 +149,7 @@ header{
     align-content: center;
     flex-direction: column;
 }
+
+.monospace {
+    font-family: monospace;
+}
