@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="./css/style.css" type="text/css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="A Minecraft bedrock server software.">
-        <meta name="keywords" content="podrum, open source, server, software, python, minecraft, bedrock">
+        <meta name="keywords" content="podrum, open source, server, software, c, minecraft, bedrock">
         <meta charset="utf-8">
     </head>
     <body>
@@ -32,19 +32,17 @@
                     <h1>Run:</h1>
                     <p>Run Podrum by executing these commands:</p>
                     <p>
-                        <!-- I think you can just run "python -m pip", no? -->
                         On Unix systems (Linux, macOS):<br/>
                         <div class="monospace">
-                            pip3 install -r requirements.txt<br/>
-                            python3 run.py
-                        </div><br/>
-                        You may need to install <span class="monospace">python-dev</span> package on Linux before running these commands.
+                            cmake CMakeLists.txt<br/>
+                            make
+                        </div>
                     </p>
                     <p>
                         On Windows:<br/>
                         <div class="monospace">
-                            pip install -r requirements.txt<br/>
-                            python run.py
+                            cmake CMakeLists.txt<br/>
+                            msbuild PodrumR3.sln
                         </div>
                     </p>
                     <p>Have a great time using Podrum!</p>
